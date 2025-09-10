@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Presentations - Laboratory for Sleep and Digital Health</title>
+  <meta name="description" content="The Laboratory for Sleep and Digital Health is a cross-disciplinary research lab committed to understanding and promoting successful aging. The PI is Dr. Peng Li at Massachussetts General Hospital and Harvard Medical School. The research theme in this lab include sleep and circadian physiology, cardiovascular function and cardiovascular dynamics, cognitive neuroscience, biomedical engineering, biomedical signal processing, nonlinear dynamics, cohort studies, and epidemiological research. Dr. Peng Li has obtained a multi-disciplinary training on biomedical engineering, nonlinear dynamics in cardiovascular physiology, and sleep.
+">
+  <link rel="shortcut icon" type="image/x-icon" href="https://pliphd.github.io/assets/images/logopic/favicon.png">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  
+  <!-- some awesome icon support -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <script src="https://kit.fontawesome.com/09c87fe897.js" crossorigin="anonymous"></script>
+
+  <!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+<!-- fancybox -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+</head>
+
+
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THKBXKR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white py-custom">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarColor02" aria-controls="navbarColor02">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand px-3" href="https://pliphd.github.io/">
+        <img src="https://pliphd.github.io/assets/images/logopic/favicon.png" width="55" height="55" style="margin-right:5px; vertical-align: bottom; float: left" class="d-inline-block" alt="">
+        <div class="nav-title">Laboratory for Sleep and Digital Health</div>
+    </a>
+    <div class="offcanvas offcanvas-start" tabindex="-1" data-bs-scroll="true" data-bs-backdrop="false" id="navbarColor02">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                
+                 
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pliphd.github.io/">Home</a>
+                </li>
+                
+                
+                 
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pliphd.github.io/news/">News</a>
+                </li>
+                
+                
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Research</a>
+                    <ul class="dropdown-menu dropdown-menu-end">                      
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/focus_areas/">Focus Areas</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            <ul class="dropend">
+                                
+                                <li><a class="dropdown-item dropdown-toggle" href="https://pliphd.github.io/focus_areas/sleep_nap_and_cognitive_aging/">Sleep, Nap, &amp; Cognitive Aging</a></li>
+                                
+                                <li><a class="dropdown-item dropdown-toggle" href="https://pliphd.github.io/focus_areas/physiological_complexity_and_biomedical_signal_processing/">Physiological Complexity &amp; Biomedical Signal Processing</a></li>
+                                
+                            </ul>
+                            
+                            -->
+                        </li>
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/projects/">Projects</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/publications/">Publications</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/videos/">Videos</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                        <li>
+                            
+                            <hr class="dropdown-divider">
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/roots/">The ROOTS Study</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+                
+                 
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pliphd.github.io/resources/">Resources</a>
+                </li>
+                
+                
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Team</a>
+                    <ul class="dropdown-menu dropdown-menu-end">                      
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/people/">People</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/photos/">Photos</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+                
+                 
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pliphd.github.io/blogs/">Blogs</a>
+                </li>
+                
+                
+                 
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pliphd.github.io/contact/">Contact</a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div class="container-fluid row">
+<div id="gridid" class="col-sm-12 col-xs-12">
+  <div class="container-fluid row">
+<div class="py-4">
+    <h2>About the PI: <em>Presentations</em></h2>
+    <em>
+        <p class="text-info">Click the presentation title to fold or unfold the content.<br>
+            Or click to <a href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false">Collapse/Expand All</a>
+        </p>
+    </em>
+</div>
+<div class="presentation">
+    <div class="accordion" id="presentationAccordion">
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-aaic2024">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-aaic2024" aria-expanded="true" aria-controls="b-aaic2024">
+                    Multiscale motor activity regulation: Relevance to dementia pathology and cognitive resilience
+                </button>
+                
+            </div>
+            
+            <div id="b-aaic2024" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-aaic2024">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>July 30, 2024</li>
+                        <li><b>Event: </b>Alzheimer's Association International Conference 2024</li>
+                        <li><b>Location: </b>Philadelphia, PA</li>
+                        
+                        
+                        
+                        
+                    </ul>
+                    <p>I was invited to present our recent work on delineating cognitive resilience using a digital biomarker extracted from actigraphy data during a Featured Research Session in AAIC this year. The work has been recently published in the journal <em>Alzheimer’s &amp; Dementia</em>, which can be found <a href="https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/alz.13747">here</a>.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2024_aaic.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-embc2024">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-embc2024" aria-expanded="true" aria-controls="b-embc2024">
+                    Digital biomarkers for brain health outcomes
+                </button>
+                
+            </div>
+            
+            <div id="b-embc2024" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-embc2024">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>July 18, 2024</li>
+                        <li><b>Event: </b>46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society</li>
+                        <li><b>Location: </b>Orlando, FL</li>
+                        
+                        
+                        
+                        
+                    </ul>
+                    <p>I organized a mini-symposium on the topic of digital biomarkers for brain health. This symposium is dedicated to delving into cutting-edge research within the realm of digital biomarkers, with a specific focus on signal analytics and feature engineering towards establishing meaningful biomarkers and exploring their transformative impacts on successful aging. The event served as a dynamic platform for researchers and clinicians to present their latest and most innovative findings, providing attendees with valuable insights into extracting meaningful health information from digital sources. I invited four experts to give talks during this symposium. Two of them are from the US, one from UK, and one from India. I gave an overview of the state-of-the-art for digital biomarkers research based on wearables.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2024_embc.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-acsm2024">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-acsm2024" aria-expanded="true" aria-controls="b-acsm2024">
+                    When to sleep? The influence of timing and regularity of napping on cognitive outcomes
+                </button>
+                
+            </div>
+            
+            <div id="b-acsm2024" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-acsm2024">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>May 30, 2024</li>
+                        <li><b>Event: </b>American College of Sports Medicine 2024 Annual Meeting</li>
+                        <li><b>Location: </b>Boston, MA</li>
+                        
+                        
+                        
+                        
+                    </ul>
+                    <p>I presented our research on daytime napping and cognitive aging during our proposal symposium in ACSM 2024. The topic of this symposium is <em>Timing is Everything: How the timing of behaviors impacts human health and aging biomarkers</em>. Target audience of this session includes both clinicians and clinical translational researchers focused on treating and preventing cardiometabolic and neurocognitive diseases. I share recent findings related to the timing and (ir)regularity of daytime napping and relevance to adverse neurocognitive outcomes. The character that sit in my badge in the picture is Flat Stanley, a famous character from a well-known book series. My son was working on the Flat Stanley travel journal project in school this week, so I carried Flat Stanley to my talk.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2024_acsm.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-nstc2023">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-nstc2023" aria-expanded="true" aria-controls="b-nstc2023">
+                    Rest-Activity Rhythms, Cardiovascular Dynamics, and Dementia: Towards Digital Biomarkers for Brain Health
+                </button>
+                
+            </div>
+            
+            <div id="b-nstc2023" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-nstc2023">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>December 05, 2023</li>
+                        <li><b>Event: </b>Public Lecture, National Science and Technology Council, Taiwan</li>
+                        <li><b>Location: </b>Taoyuan City, Taiwan and online</li>
+                        
+                        
+                        
+                        
+                    </ul>
+                    <p>I was invited to give this lecture that is available to the public. During this talk, I presented recent research on rest-activity rhythms and cognitive aging. More interestingly, I presented many new results obtained from a currently on-going project that links cardiovascular functional changes, including changes in autonomic function and arterial function, to dementia outcomes.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2023_nstc.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-icbeb2023">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-icbeb2023" aria-expanded="true" aria-controls="b-icbeb2023">
+                    Analytical approaches for circadian rest-activity rhythms and new insights into cognitive aging
+                </button>
+                
+            </div>
+            
+            <div id="b-icbeb2023" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-icbeb2023">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>November 18, 2023</li>
+                        <li><b>Event: </b>The 12th International Conference on Biomedical Engineering and Biotechnology (ICBEB 2023)</li>
+                        <li><b>Location: </b>Macao, China and online</li>
+                        
+                        
+                        
+                        
+                        <li><b>Link: </b><a href="http://www.icbeb.org/Speaker/Details?id=1077" target="_blank"><i class="bi bi-link"></i></a></li>
+                        
+                    </ul>
+                    <p>I was invited to give a talk in the theme of biomedical signal processing and health outcomes. I will present both classical and new approaches in the field of chronobiology to analyze continuously monitored physiological signals for circadian rhythms or function. I will also present results from our translational studies in older as well as middle- to older-aged adults that provide novel insights into cognitive health and cognitive aging.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2023_icbeb.png" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-cfar2023">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-cfar2023" aria-expanded="true" aria-controls="b-cfar2023">
+                    Circadian rest-activity rhythms and cognitive performance in people living with HIV
+                </button>
+                
+            </div>
+            
+            <div id="b-cfar2023" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-cfar2023">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>February 13, 2023</li>
+                        <li><b>Event: </b>HIV Research-in-Progress Series</li>
+                        <li><b>Location: </b>online and Boston, MA</li>
+                        
+                        
+                        
+                        
+                        <li><b>Link: </b><a href="https://myemail.constantcontact.com/02-13-23--12-30pm-ET--HIV-Research-in-Progress-presented-by-Peng-Li--PhD.html?soid=1101540286588&aid=77uqi8PwPsA" target="_blank"><i class="bi bi-link"></i></a></li>
+                        
+                    </ul>
+                    <p>I am sharing my res-in-prog on my CFAR developmental award.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2023_cfar.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-aaic2022">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-aaic2022" aria-expanded="true" aria-controls="b-aaic2022">
+                    Circadian age, chronological age, and Alzheimer’s dementia
+                </button>
+                
+            </div>
+            
+            <div id="b-aaic2022" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-aaic2022">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>August 01, 2022</li>
+                        <li><b>Event: </b>The Alzheimer's Association International Conference 2022</li>
+                        <li><b>Location: </b>San Diego, CA</li>
+                        
+                        
+                        
+                        
+                    </ul>
+                    <p>I am presenting our preliminary results on circadian age derived from multi-dimensional actigraphy features. This is an in-person event during the Alzheimer’s Association International Conference (AAIC) 2022.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-aids2022">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-aids2022" aria-expanded="true" aria-controls="b-aids2022">
+                    Randomness of motor activity and cognitive performance in people living with HIV infection
+                </button>
+                
+            </div>
+            
+            <div id="b-aids2022" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-aids2022">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>July 29, 2022</li>
+                        <li><b>Event: </b>The 24th International AIDS Conference</li>
+                        <li><b>Location: </b>online and Montreal, Canada</li>
+                        
+                        <li><b>Poster: </b><a href="https://pliphd.github.io/assets/files/presentation/aids_2022.pdf" target="_blank">Download the poster<i class="bi bi-file-pdf"></i></a></li>
+                        
+                        
+                        <li><b>Video: </b><a href="https://programme.aids2022.org/PAGMaterial/PPT/2498_7507/AIDS2022__e_poster_template_portrait_0624.mp4" target="_blank">Watch the recorded presentation<i class="bi bi-camera-video"></i></a></li>
+                        
+                        
+                        
+                    </ul>
+                    <p>I am presenting in AIDS 2022 virtually. The topic is on the randomness of motor activity, as described by a scaling exponent extracted from detrended fluctuation analysis. Please read our <em><a href="https://www.science.org/doi/10.1126/scitranslmed.aax1977">Sci Transl Med</a></em> article for more information regarding the randomness of motor activity. This specific abstract shows that increased randomness in motor activity was associated with longer reaction time in people living with HIV infection but not in uninfected controls, implying a potential relation of circadian dysfunction with executive function. Click <a href="https://programme.aids2022.org/PAGMaterial/PPT/2498_7507/AIDS2022__e_poster_template_portrait_0624.mp4">here</a> to watch the recorded E-poster presentation!</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-sleep2022">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-sleep2022" aria-expanded="true" aria-controls="b-sleep2022">
+                    Multidimensional actigraphy features: Link between circadian rest activity rhythms and Alzheimer’s disease
+                </button>
+                
+            </div>
+            
+            <div id="b-sleep2022" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-sleep2022">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>June 08, 2022</li>
+                        <li><b>Event: </b>SLEEP 2022</li>
+                        <li><b>Location: </b>Charlotte, NC</li>
+                        
+                        
+                        
+                        
+                    </ul>
+                    <p>This is an invited talk during the symposium session <em>Disturbed Daily Activity Patterns and Alzheimer’s Disease: Latest Updates and Future Questions</em> during the SLEEP 2022. I present our latest findings from prospective cohort studies of older adults, which were designed to examine how different actigraphy-derived measures including the sleep-wake cycle daytime napping, and daily activity fluctuations/rhythms predict the risk of developing Alzheimer’s dementia, and how these measures of daily activity patterns change with aging at different stages of AD (from normal cognition, mild cognitive impairment, to dementia). Hopefully upon completion of this presentation, the audience should be able to review multidimensional actigraphy features (MAF), their meanings and relevance to sleep/circadian regulation, advantages, and potential pitfalls, to recognize the potential of MAF in predicting future risk of Alzheimer’s dementia, and to recognize the longitudinal changes of MAF during cognitive aging.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2022_Sleep.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-hku2022">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-hku2022" aria-expanded="true" aria-controls="b-hku2022">
+                    Analytical approaches and novel insights into cognitive health in older adults
+                </button>
+                
+            </div>
+            
+            <div id="b-hku2022" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-hku2022">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>February 23, 2022</li>
+                        <li><b>Event: </b>Departmental Seminar, Department of Psychology, The University of Hong Kong</li>
+                        <li><b>Location: </b>online and Hong Kong, China</li>
+                        
+                        
+                        
+                        <li><b>Flyer: </b><a href="https://pliphd.github.io/assets/files/presentation/hku_flyer.pdf" target="_blank">See details in the flyer<i class="bi bi-file-pdf"></i></a></li>
+                        
+                        
+                    </ul>
+                    <p>I was invited to give a talk on our recent research related to circadian rhythms in aging and AD.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-taishan2021">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-taishan2021" aria-expanded="true" aria-controls="b-taishan2021">
+                    Predicting patterns in daily activities
+                </button>
+                
+            </div>
+            
+            <div id="b-taishan2021" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-taishan2021">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>July 17, 2021</li>
+                        <li><b>Event: </b>Taishan Forum of Science and Techonology, Shandong Society of Biomedical Engineering</li>
+                        <li><b>Location: </b>online and Jinan, China</li>
+                        
+                        
+                        
+                        
+                    </ul>
+                    <p>I was invited to give a talk during this forum. I discussed several approaches that had been used to analyze actigraphy, and their predictive abilities in the context of cognitive aging.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-taiyuan2021">
+                
+                <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#b-taiyuan2021" aria-expanded="true" aria-controls="b-taiyuan2021">
+                    Physiological complexity, brain health, and well-being
+                </button>
+                
+            </div>
+            
+            <div id="b-taiyuan2021" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-taiyuan2021">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>November 08, 2020</li>
+                        <li><b>Event: </b>The 2020 Cross-Disciplinary Research Forum on Mathematics, Artificial Intelligence, and Chronic Diseases</li>
+                        <li><b>Location: </b>online and Taiyuan, China</li>
+                        
+                        
+                        
+                        
+                    </ul>
+                    <p>This symposium aims to bring together academia and industry leaders in the field of artificial intelligence in medicine, mathematics in medicine, and clinical researchers of chronic diseases across the globe to discuss research in the area of intelligent diagnosis and treatment of chronic diseases. It will encourage new discussions and collaborations on the interface of mathematics and artificial intelligence in medicine. I was invited to give a talk during this event.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="presentation">
+    <div class="accordion" id="presentationArchivedAccordion">
+        <h3>Archived Presentations</h3>
+        <em>
+            <p class="text-info">Archived from the <a href="https://scholar.harvard.edu/pli" target="_blank">OpenScholar</a> profile.<br>Click the presentation title to fold or unfold the content.<br>
+                Or click to <a href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false">Collapse/Expand All</a>
+            </p>
+        </em>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-aaic2021_2">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-aaic2021_2" aria-expanded="true" aria-controls="b-aaic2021_2">
+                    Multiscale Motor Activity Regulation and Cognitive Performance in Middle-Aged Adults: A Cross-Sectional Study Using Baseline Data of UK Biobank Cohort
+                </button>
+                
+            </div>
+            
+            <div id="b-aaic2021_2" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-aaic2021_2">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>July 26, 2021</li>
+                        <li><b>Event: </b>The Alzheimer's Association International Conference 2021</li>
+                        <li><b>Location: </b>online</li>
+                        
+                        
+                    </ul>
+                    <p>Motor activity fluctuations in healthy young humans display robust temporal correlations across a wide range of time scales. The multiscale correlations are altered in older adults (for details, check <a href="https://www.sciencedirect.com/science/article/pii/S019745801930301X?via%3Dihub">this article</a> published in <i>Neurobiology of Aging</i>). Their changes are associated with cognitive decline and risk of incident Alzheimer’s dementia in cognitively intact, older adults (for details, check <a href="https://alz-journals.onlinelibrary.wiley.com/doi/10.1016/j.jalz.2018.03.010">this article</a> published in <i>Alzheimer’s &amp; Dementia: The Journal of the Alzheimer’s Association</i>). It is to be determined whether these associations are true in during middle life (i.g., between 40 and 69 years old). Using the UK Biobank cohort, we explored these associations, and presented our preliminary findings during the Alzheimer’s Association International Conference (AAIC) 2021. These findings suggested multiscale motor activity regulation is linked to cognitive performance of specific domains in the middle-aged population.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-aaic2021">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-aaic2021" aria-expanded="true" aria-controls="b-aaic2021">
+                    Cross-Sectional Association Between Cardiovascular Risk Score and Cognitive Performance in Middle-Aged UK Biobank Participants
+                </button>
+                
+            </div>
+            
+            <div id="b-aaic2021" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-aaic2021">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>July 26, 2021</li>
+                        <li><b>Event: </b>The Alzheimer's Association International Conference 2021</li>
+                        <li><b>Location: </b>online</li>
+                        
+                        
+                    </ul>
+                    <p>Cardiovascular diseases (CVD) have been linked with faster cognitive decline and incident dementia. The actual risk factors for CVD also tie to these adverse cognitive consequences in elderly adults. The cardiovascular risk score (CRS) provides direct estimation of total cardiovascular risk that suits well to the constraints of primary prevention. Further data especially in larger populations are required to examine whether CRS is also associated with cognitive performance in middle age. Data from about half an million participants in the UK Biobank cohort were evaluated. A 10-year fetal cardiovascular risk score (CRS) was constructed for each participant using the European SCORE system. We assessed the association between the CRS and cognitive performance. Preliminary results were presented at the Alzheimer’s Association International Conference (AAIC) 2021 as an poster presentation.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-smb2021">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-smb2021" aria-expanded="true" aria-controls="b-smb2021">
+                    Resting Heart Rate Complexity and All-Cause and Cardiorespiratory Mortality in a Middle-to-Older Aged, Population Cohort
+                </button>
+                
+            </div>
+            
+            <div id="b-smb2021" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-smb2021">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>June 16, 2021</li>
+                        <li><b>Event: </b>Society for Mathematical Biology Annual Meeting 2021</li>
+                        <li><b>Location: </b>online</li>
+                        
+                        
+                    </ul>
+                    <p>This is an invited talk in the session <em>The Control of the Cardiovascular System in Health and Disease</em> in SMB (Society for Mathemetical Biology) 2021. Spontaneous heart rate fluctuations contain rich information related to health and illness in terms of physiological complexity, an accepted indicator of plasticity and adaptability. However, it is challenging to make inferences on complexity from shorter, more practical epochs of data. Distribution entropy (DistEn) is a recently introduced complexity measure that is designed specifically for shorter duration heartbeat recordings. We hypothesized that reduced DistEn predicts increased mortality in a large population cohort. The prognostic value of DistEn was examined in 7,631 middle-older aged UK Biobank participants who had 2-minute resting electrocardiograms (ECG) conducted (mean age 59.5 years; 60.4% female). During a median follow-up period of 7.8 years, 451 (5.9%) participants died. In Cox proportional hazards models with adjustment for demographics, lifestyle factors, physical activity, cardiovascular risks, and comorbidities, for each 1 standard deviation decrease in DistEn, the risk increased by 36%, 56% and 73%, for all-cause, cardiovascular and respiratory disease related mortality, respectively. These effect sizes were equivalent to the risk of death from being over 5 years older, having been a former smoker or suffering from diabetes mellitus. Lower DistEn was most predictive of death in those under 55 years with a prior myocardial infarction, representing an additional 56% risk for mortality compared to older subjects without. These observations remained after controlling for traditional mortality predictors, resting heart rate and HRV. Resting heart rate complexity from short, resting ECGs was independently associated with mortality in middle to older aged adults. These risks appear most pronounced in middle-aged subjects with prior MI, and may uniquely contribute to mortality risk screening.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-sleep2021">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-sleep2021" aria-expanded="true" aria-controls="b-sleep2021">
+                    Maintenance of Circadian/Daily Activity Patterns and Cognitive Resilience to Alzheimer’s Pathology in Late Life
+                </button>
+                
+            </div>
+            
+            <div id="b-sleep2021" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-sleep2021">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>June 09, 2021</li>
+                        <li><b>Event: </b>SLEEP 2021</li>
+                        <li><b>Location: </b>online</li>
+                        
+                        
+                    </ul>
+                    <p>In this preliminary study, we found that better preserved circadian daily rest-activity rhythms linked to lower risk of CI or dementia in older people especially those with pathological AD. I presented this finding in the annual SLEEP meeting 2021. It was also selected to be presented during the annual DataBlitz session.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2021_sleep_data_blitz.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-hivaging2020">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-hivaging2020" aria-expanded="true" aria-controls="b-hivaging2020">
+                    Daytime sleep behavior and cognitive performance in middle-older aged HIV+ and HIV- adults: A cross-sectional study of 502,505 participants in UK Biobank
+                </button>
+                
+            </div>
+            
+            <div id="b-hivaging2020" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-hivaging2020">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>September 30, 2020</li>
+                        <li><b>Event: </b>The International Workshop on HIV & Aging 2020</li>
+                        <li><b>Location: </b>online</li>
+                        
+                        
+                    </ul>
+                    <p>This is the first study in people living with HIV infection in the UK Biobank cohort. I presented our recent data that showed an exacerbated effect of HIV infection on the association between daytime sleep behavior and cognitive performance. Check the <a href="/videos/">Video</a> channel to watch the presentation released by the Academic Medical Education.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2020_HIV.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-sleep2020">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-sleep2020" aria-expanded="true" aria-controls="b-sleep2020">
+                    Longer and More Frequent Naps Predict Incident Alzheimer's Dementia in Community-Based Older Adults
+                </button>
+                
+            </div>
+            
+            <div id="b-sleep2020" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-sleep2020">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>August 26, 2020</li>
+                        <li><b>Event: </b>SLEEP 2020</li>
+                        <li><b>Location: </b>online</li>
+                        
+                        
+                    </ul>
+                    <p>I have the honor to present oral in this year’s SLEEP meeting again! The topic is about my most recent research interest – daytime napping. Many results have been touched in the online AAIC oral presentation below. In this SLEEP presentation, I’ve added some most recent updates on the potential bi-directional relationship between longer daytime napping and cognitive decline. Based on a structural equation model, the two processes seem to drive each other with aging, as longer daytime napping was associated with next year more cognitive decline, and the other way around, more cognitive decline was associated with daytime napping prolongation in the subsequent year. It appears that audience has a great interest in the link between daytime napping and cognition/dementia. I’ve amphasized on our finding about the bi-diretional relationship, and mentioned that there is far from drawing causation at this moment. A lot more to be done in order to confirm whether excessive daytime napping is a risk factor to promote this process, or accelerated this progression, or it works as a biomarker to help monitor the disease process. The story was covered by a <a href="https://www.medpagetoday.com/meetingcoverage/apss/88350">MedPage Today media report</a>.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2020_SLEEP.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-aaic2020_2">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-aaic2020_2" aria-expanded="true" aria-controls="b-aaic2020_2">
+                    Longer and More Frequent Naps Predict Incident Alzheimer’s Dementia in Community-Based Older Adults
+                </button>
+                
+            </div>
+            
+            <div id="b-aaic2020_2" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-aaic2020_2">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>July 28, 2020</li>
+                        <li><b>Event: </b>The Alzheimer's Association International Conference 2020</li>
+                        <li><b>Location: </b>online</li>
+                        
+                        
+                    </ul>
+                    <p>I’m presenting in oral our resent data on daytime napping and dementia in the first-ever virtual AAIC! See the article related to this presentation published in <a href="https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.12636">Alzheimer’s &amp; Dementia: The Journal of the Alzheimer’s Association</a>. Got questions? See the <a href="/2022/12/29/Daytime-napping-and-alzheimers-questions-and-answers">Q&amp;A from the Author</a></p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-aaic2020">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-aaic2020" aria-expanded="true" aria-controls="b-aaic2020">
+                    Daytime Napping Trajectory Over Time and Its Association with Cognitive Aging
+                </button>
+                
+            </div>
+            
+            <div id="b-aaic2020" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-aaic2020">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>July 28, 2020</li>
+                        <li><b>Event: </b>The Alzheimer's Association International Conference 2020</li>
+                        <li><b>Location: </b>online</li>
+                        
+                        
+                        <li><b>Video: </b><a href="https://player.vimeo.com/video/435696299" target="_blank">Watch the recorded presentation<i class="bi bi-camera-video"></i></a></li>
+                        
+                    </ul>
+                    <p>This is my second presentation at the virtual AAIC 2020 conference.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-map2020">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-map2020" aria-expanded="true" aria-controls="b-map2020">
+                    Daytime napping in community-dwelling elderly adults
+                </button>
+                
+            </div>
+            
+            <div id="b-map2020" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-map2020">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>May 06, 2020</li>
+                        <li><b>Event: </b>The 11th Annual Rush Alzheimer's Disease Center ROSMAP Investigator's Meeting</li>
+                        <li><b>Location: </b>online</li>
+                        
+                        
+                    </ul>
+                    <p>Daytime napping is a common sleep behavior; its effect on health especially in elderly adults worth further investigation. I gave an presentation covering our preliminar results on the change of daytime napping duration with aging, and how it is related to adverse aging related consequences.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2020_ROSMAP_online.png" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-ssm2020">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-ssm2020" aria-expanded="true" aria-controls="b-ssm2020">
+                    Physiological complexity, brain health, and well-being
+                </button>
+                
+            </div>
+            
+            <div id="b-ssm2020" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-ssm2020">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>March 30, 2020</li>
+                        <li><b>Event: </b>Scientific Staff Meeting, Division of Sleep and Circadian Disorders</li>
+                        <li><b>Location: </b>Boston, MA</li>
+                        
+                        
+                    </ul>
+                    <p>I am presenting at the Scientific Staff meeting @ Division of Sleep and Circadian Disorders. This is an interesting theoretical part of my presentation – a fractal temporal process. Intuitively, we could examine a fractal process similarly as we do for a fractal object. We can zoom in part the process again and again, and if the condition that their statistical properties are similar, we call it a self-similar, or fractal process. To meet such a condition, it usually follows a power-law relationship how the details change with the scaling process.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2020_SSM.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-sfn2019">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-sfn2019" aria-expanded="true" aria-controls="b-sfn2019">
+                    Increased randomness in motor activity predicts cognitive impairment in older adults
+                </button>
+                
+            </div>
+            
+            <div id="b-sfn2019" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-sfn2019">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>October 21, 2019</li>
+                        <li><b>Event: </b>Society for Neuroscience Conference 2019</li>
+                        <li><b>Location: </b>Chicago, IL</li>
+                        
+                        
+                    </ul>
+                    <p>I presented a poster at the Society for Neuroscience Conference 2019 in Chicago. This poster is about the relationship between randomness of motor activity fluctuations (or multiscale temporal correlation) and brain pathology. We found that increased randomness was associated with increased burden of certain pathological biomarkers in the brain. More interestingly, increased randomness uniquely explained 10% variance of cognition in addition to multiple brain pathologies. See also our most recent publication in <a href="https://www.science.org/doi/10.1126/scitranslmed.aax1977">Sci Transl Med (cover feature)</a>.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-sleep2019_2">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-sleep2019_2" aria-expanded="true" aria-controls="b-sleep2019_2">
+                    Interaction Between the Progression of Alzheimer’s Dementia and Circadian Disturbances: A 13-Year Longitudinal Study in Community-Based Older Adults
+                </button>
+                
+            </div>
+            
+            <div id="b-sleep2019_2" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-sleep2019_2">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>June 12, 2019</li>
+                        <li><b>Event: </b>SLEEP 2019</li>
+                        <li><b>Location: </b>San Antonio, TX</li>
+                        
+                        
+                    </ul>
+                    <p>An oral presentation discussing the interaction between Alzheimer’s progression and circadian disturbances. The medical media Medscape News covered this presentation with title <a href="https://www.medscape.com/viewarticle/914485">Circadian Rhythm Disturbances May Be an Alzheimer’s Marker</a>. See also the related article published in <a href="https://www.thelancet.com/journals/lanhl/article/PIIS2666-7568(20)30015-5/fulltext">The Lancet Healthy Longevity</a>.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-sleep2019">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-sleep2019" aria-expanded="true" aria-controls="b-sleep2019">
+                    Degraded Circadian Regulation Predicts Incident Physical Disability and All-Cause Mortality in Community-Based Older Adults
+                </button>
+                
+            </div>
+            
+            <div id="b-sleep2019" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-sleep2019">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>June 10, 2019</li>
+                        <li><b>Event: </b>SLEEP 2019</li>
+                        <li><b>Location: </b>San Antonio, TX</li>
+                        
+                        
+                    </ul>
+                    <p>This is an oral presentation. The results indicate that disturbances in circadian rhythms appears to be a predictor of physical disability and mortality in older adults.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-map2019">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-map2019" aria-expanded="true" aria-controls="b-map2019">
+                    Fractal motor regulation and adverse health consequences
+                </button>
+                
+            </div>
+            
+            <div id="b-map2019" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-map2019">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>April 15, 2019</li>
+                        <li><b>Event: </b>The 10th Annual Rush Alzheimer's Disease Center ROSMAP Investigator's Meeting</li>
+                        <li><b>Location: </b>Chicago, IL</li>
+                        
+                        
+                    </ul>
+                    <p>I was invited to give a 15-min oral presentation on our research about fractal motor regulation. I presented new results we obtained resently about the association between fractal motor regulation and future incidence of adverse health outcomes. A manuscript related to these results is currently under review.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-sfn2018">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-sfn2018" aria-expanded="true" aria-controls="b-sfn2018">
+                    Brain correlates of fractal regulation in motor activity
+                </button>
+                
+            </div>
+            
+            <div id="b-sfn2018" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-sfn2018">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>November 05, 2018</li>
+                        <li><b>Event: </b>Society for Neuroscience Conference 2018</li>
+                        <li><b>Location: </b>San Diego, CA</li>
+                        
+                        
+                    </ul>
+                    <p>A poster presentation on my most updated findings on the brain correlates of fractal activity regulation. I was given a Trainee Professional Development Award during the conference.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2018_TPDA.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-sleep2018_2">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-sleep2018_2" aria-expanded="true" aria-controls="b-sleep2018_2">
+                    Degraded fractal activity regulation predicts elevated risk of Alzheimer's disease in the elderly
+                </button>
+                
+            </div>
+            
+            <div id="b-sleep2018_2" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-sleep2018_2">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>June 05, 2018</li>
+                        <li><b>Event: </b>SLEEP 2018</li>
+                        <li><b>Location: </b>Baltimore, MD</li>
+                        
+                        <li><b>Poster: </b><a href="https://pliphd.github.io/assets/files/presentation/poster_ad_prediction_final.pdf" target="_blank">Download the poster<i class="bi bi-file-pdf"></i></a></li>
+                        
+                        
+                    </ul>
+                    <p>A poster presentation explaining the work about fractal activity regulation and its predictability of Alzheimer’s dementia and cognitive decline. Results have been officially published in <a href="https://alz-journals.onlinelibrary.wiley.com/doi/10.1016/j.jalz.2018.03.010">Alzheimer’s &amp; Dementia: The Journal of the Alzheimer’s Association</a>.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-sleep2018">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-sleep2018" aria-expanded="true" aria-controls="b-sleep2018">
+                    Degraded fractal activity regulation is associated with reduced regional cortical gray matter volumes--Beyond the brain correlates of sleep fragmentation
+                </button>
+                
+            </div>
+            
+            <div id="b-sleep2018" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-sleep2018">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>June 05, 2018</li>
+                        <li><b>Event: </b>SLEEP 2018</li>
+                        <li><b>Location: </b>Baltimore, MD</li>
+                        
+                        
+                    </ul>
+                    <p>A poster presentation on my most recent findings about the brain correlates of fractal activity regulation. In briefly, we identified 15 brain regions/subregions from the structure MRI scans that showed associations with the fractal activity patterns at time scale &lt; 90 min. Linear regression models adjusted for age, sex, and years of education explain on average 20% the variation of the gray matter volumes of these regions. Working on manuscript right now.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-map2018">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-map2018" aria-expanded="true" aria-controls="b-map2018">
+                    Fractal regulation and dementia-related pathologies
+                </button>
+                
+            </div>
+            
+            <div id="b-map2018" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-map2018">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>May 30, 2018</li>
+                        <li><b>Event: </b>The 9th Annual Rush Alzheimer's Disease Center ROSMAP Investigator's Meeting</li>
+                        <li><b>Location: </b>Chicago, IL</li>
+                        
+                        
+                    </ul>
+                    <p>An invited 15-min talk focusing on my recent research on the fractal regulation and brain pathology. I briefly reviewed the published paper <a href="https://www.alzheimersanddementia.com/article/S1552-5260(18)30108-0/fulltext">Fractal activity regulation and incident Alzheimer’s disease in elderly individuals</a> and some of my working papers. Then I talked about many preliminary data regarding the link between fractal regulation and brain pathology.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2018_ROSMAP.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-sleep2017_2">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-sleep2017_2" aria-expanded="true" aria-controls="b-sleep2017_2">
+                    Effects Of Food Restriction On Stability And Fragmentation Of Daily Activity Rhythms
+                </button>
+                
+            </div>
+            
+            <div id="b-sleep2017_2" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-sleep2017_2">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>June 04, 2017</li>
+                        <li><b>Event: </b>SLEEP 2017</li>
+                        <li><b>Location: </b>Boston, MA</li>
+                        
+                        
+                    </ul>
+                    <p>This is a poster presentation focusing on how restricted feeding affects the stability and fragmentation of daily activity rhythms, and how the dorsomedial hypothalamic nucleus mediates these effects.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-sleep2017">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-sleep2017" aria-expanded="true" aria-controls="b-sleep2017">
+                    Longitudinal Changes of Fractal Activity Regulation with Aging: Preliminary Results from the Rush Memory and Aging Project
+                </button>
+                
+            </div>
+            
+            <div id="b-sleep2017" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-sleep2017">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>June 01, 2017</li>
+                        <li><b>Event: </b>SLEEP 2017</li>
+                        <li><b>Location: </b>Boston, MA</li>
+                        
+                        
+                    </ul>
+                    <p>This is a poster presentation focusing on the aging-induced changes in fractal activity regulation. It was longitudinal, within-subject changes rather than cross sectional correlation.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-map2017">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-map2017" aria-expanded="true" aria-controls="b-map2017">
+                    Physiological Consequences of Altered Fractal Regulation: Application in Dementia
+                </button>
+                
+            </div>
+            
+            <div id="b-map2017" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-map2017">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>May 04, 2017</li>
+                        <li><b>Event: </b>The 8th Annual Rush Alzheimer's Disease Center ROSMAP Investigator's Meeting</li>
+                        <li><b>Location: </b>Chicago, IL</li>
+                        
+                        
+                    </ul>
+                    <p>An invited oral presentation focusing on the preliminary data on altered fractal activity regulation in relation to AD dementia and cognitive decline.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-mini">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-mini" aria-expanded="true" aria-controls="b-mini">
+                    Night Shift Work Disrupts Fractal Activity Regulation
+                </button>
+                
+            </div>
+            
+            <div id="b-mini" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-mini">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>June 29, 2016</li>
+                        <li><b>Event: </b>Boston Mini-Symposium on Circadian Rhythms, Metabolism and Beyond</li>
+                        <li><b>Location: </b>Boston, MA</li>
+                        
+                        
+                    </ul>
+                    <p>A locally invited oral presentation focusing on how night shift affects the fractal activity regulation in chronic shift workers and non-shift controls.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-map2016">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-map2016" aria-expanded="true" aria-controls="b-map2016">
+                    Aging Effect on Multiscale Activity Control
+                </button>
+                
+            </div>
+            
+            <div id="b-map2016" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-map2016">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>May 19, 2016</li>
+                        <li><b>Event: </b>The 7th Annual Rush Alzheimer's Disease Center ROSMAP Investigator's Meeting</li>
+                        <li><b>Location: </b>Chicago, IL</li>
+                        
+                        
+                    </ul>
+                    <p>An invited 15-min talk focusing on how multiscale activity control, or fractal activity regulation, changes with aging process.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-cinc2014">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-cinc2014" aria-expanded="true" aria-controls="b-cinc2014">
+                    Coupling between Short-Term Heart Rate and Diastolic Period is Reduced in Heart Failure Patients as Indicated by Multivariate Entropy Analysis
+                </button>
+                
+            </div>
+            
+            <div id="b-cinc2014" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-cinc2014">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>September 08, 2014</li>
+                        <li><b>Event: </b>2014 Computing in Cardiology Conference</li>
+                        <li><b>Location: </b>Boston, MA</li>
+                        
+                        
+                    </ul>
+                    <p>An oral presentation focusing on a new analysis, namely refined multiscale multivariate fuzzy entropy, and its application to heart rate and diastolic time interval coupling analysis.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2014_Boston.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-haiyou">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-haiyou" aria-expanded="true" aria-controls="b-haiyou">
+                    Entropy Measures with Application to the Complexity Analysis of Cardiac Dynamics
+                </button>
+                
+            </div>
+            
+            <div id="b-haiyou" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-haiyou">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>October 31, 2013</li>
+                        <li><b>Event: </b>The 46th Haiyou PhD Seminar</li>
+                        <li><b>Location: </b>Jinan, China</li>
+                        
+                        
+                    </ul>
+                    <p>I was invited to give a talk about my PhD projects to undergraduates and graduates of related majors in my <a href="https://www.sdu.edu.cn/">university</a> on my last year of PhD study.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2013_Haiyou.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-wc2012">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-wc2012" aria-expanded="true" aria-controls="b-wc2012">
+                    Cross-Sample Entropy and Cross-Fuzzy Entropy for Testing Pattern Synchrony: How Results Vary with Different Threshold Value r
+                </button>
+                
+            </div>
+            
+            <div id="b-wc2012" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-wc2012">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>May 28, 2012</li>
+                        <li><b>Event: </b>The 38th World Congress on Medical Physics and Biomedical Engineering</li>
+                        <li><b>Location: </b>Beijing, China</li>
+                        
+                        
+                    </ul>
+                    <p>I gave an oral presentation regarding my simulation tests on two entropy measures - cross sample entropy and cross fuzzy entropy - that are used for examining the coupling/cross predictability of bivariate time-series.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2012_Beijing.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <div class="accordion-header" id="h-cinc2011">
+                
+                <button class="accordion-button text-info" type="button" data-bs-parent="#presentationAccordion" data-bs-toggle="collapse" data-bs-target="#b-cinc2011" aria-expanded="true" aria-controls="b-cinc2011">
+                    Higher Order Spectra for Heart Rate Variability and QT Interval Variability Analysis: A Comparison between Heart Failure and Normal Control Groups
+                </button>
+                
+            </div>
+            
+            <div id="b-cinc2011" class="accordion-collapse collapse multi-collapse show" aria-labelledby="h-cinc2011">
+            
+                <div class="accordion-body">
+                    <ul>
+                        <li><b>Date: </b>September 20, 2011</li>
+                        <li><b>Event: </b>2011 Computing in Cardiology Conference</li>
+                        <li><b>Location: </b>Hangzhou, China</li>
+                        
+                        
+                    </ul>
+                    <p>I gave an oral presentation on a new spectral analysis, namely higher order spectra analysis, on the QT interval variability.</p>
+
+                    
+                    <div class="img-max">
+                    <figure class="figure">
+                        <img src="https://pliphd.github.io/assets/images/presentation/2011_Hangzhou.jpg" class="figure-img img-fluid rounded">
+                    </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-light btn-floating btn-lg" id="btn-back-to-top">
+      <i class="bi bi-arrow-up-square"></i>
+    </button>
+
+        <div class="footer-clean">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 item">
+                        <h3>About</h3>
+                            <p>Site powered by <a href="https://jekyllrb.com">Jekyll</a> and uses <a href="http://www.getbootstrap.com">Bootstrap</a>. The theme is adapted from <a href="http://www.bootswatch.com">Bootswatch</a> with customization.</p>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 item">
+                        <h3>Contact</h3>
+                            149 13th Street,  
+			          Boston, MA 02129  
+				    (<a href="https://maps.app.goo.gl/1RbVE8kDMMLjVHje7">Maps</a>)
+                    </div>
+                    <div class="item social">
+                        <a href="https://twitter.com/PengLiBME" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/pliphd/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <p class="copyright">Li Lab © 2022-<script>document.write(new Date().getFullYear())</script></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- below JS support is needed for some contents to work properly (such as the carousel and navbar, gallery) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/85f27d592b.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        //
+      });    
+    </script>
+
+    <!-- personalized JS support -->
+    <script src="https://pliphd.github.io/assets/js/back_to_top.js"></script>
+    <script src="https://pliphd.github.io/assets/js/reading_time.js"></script>
+    <script src="https://pliphd.github.io/assets/js/modal.js"></script>
+    <script src="https://pliphd.github.io/assets/js/gallery.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("[rel=tooltip]").tooltip({ placement: 'top'});
+      });
+    </script>
+  </body>
+
+</html>

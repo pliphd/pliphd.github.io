@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://pliphd.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pliphd.github.io/" rel="alternate" type="text/html" /><updated>2025-09-10T13:06:08-04:00</updated><id>https://pliphd.github.io/feed.xml</id><title type="html">Laboratory for Sleep and Digital Health</title><subtitle>The Laboratory for Sleep and Digital Health is a cross-disciplinary research lab committed to understanding and promoting successful aging. The PI is Dr. Peng Li at Massachussetts General Hospital and Harvard Medical School. The research theme in this lab include sleep and circadian physiology, cardiovascular function and cardiovascular dynamics, cognitive neuroscience, biomedical engineering, biomedical signal processing, nonlinear dynamics, cohort studies, and epidemiological research. Dr. Peng Li has obtained a multi-disciplinary training on biomedical engineering, nonlinear dynamics in cardiovascular physiology, and sleep.
+</subtitle><entry><title type="html">_Science Translational Medicine_ cover story - Predictive patterns in daily movement</title><link href="https://pliphd.github.io/2022/12/30/Science-translational-medicine-cover-story-predictive-patterns-in-daily-movement/" rel="alternate" type="text/html" title="_Science Translational Medicine_ cover story - Predictive patterns in daily movement" /><published>2022-12-30T00:00:00-05:00</published><updated>2022-12-30T00:00:00-05:00</updated><id>https://pliphd.github.io/2022/12/30/Science-translational-medicine-cover-story-predictive-patterns-in-daily-movement</id><content type="html" xml:base="https://pliphd.github.io/2022/12/30/Science-translational-medicine-cover-story-predictive-patterns-in-daily-movement/"><![CDATA[<h5 id="initially-published-on-october-31-2019-in-the-harvard-open-scholar-profile-which-as-of-today-is-still-live-but-will-eventually-be-down">Initially published on October 31, 2019 in the <a href="https://scholar.harvard.edu/pli">Harvard Open Scholar</a> profile, which, as of today, is still live, but will eventually be down.</h5>
+
+<div class="container-fluid">
+  <p><img src="https://pliphd.github.io/assets/images/blogimg/Pic_frailty_dis.png" class="img-fluid" alt="predictive patterns" /></p>
+  <figcaption>
+    <p>Credit © Medical Biodynamics Program</p>
+  </figcaption>
+</div>
+
+<p>We observed temporal correlations across multiple scales in motor activity, and found their value in predicting frailty, disability, and death in older adults. Study was published in <a href="https://www.science.org/doi/10.1126/scitranslmed.aax1977"><i>Science Translational Medicine</i></a> on October 30, 2019. This paper was featured on cover page of this issue.</p>
+
+<div class="container-fluid">
+  <p><img src="https://pliphd.github.io/assets/images/blogimg/Pic_Cover_story.png" class="img-fluid" alt="Science Translational Medicine Cover Story" /></p>
+  <figcaption>
+    <p>Credit © ASHLEY COOPER/SCIENCE SOURCE</p>
+  </figcaption>
+</div>
+
+<p>Wearables render new opportunities to the clinic—unobtrusive monitoring in long term. Wrist actiwatch is now common in market.</p>
+
+<h3 id="what-may-these-motor-activity-fluctuations-tell-us-about-health">What may these motor activity fluctuations tell us about health?</h3>
+
+<p>We are interested in the self-similarity hidden underneath the signal itself. Self-similarity, meaning structures mimic themselves across different observation scales, is also known as scale invariance or fractal.</p>
+
+<div class="container-fluid">
+  <p><img src="https://pliphd.github.io/assets/images/blogimg/Pic_fractal.png" class="img-fluid" alt="Fractal patterns" /></p>
+  <figcaption>
+    <p>Credit © Medical Biodynamics Program<br />
+Left: a fractal structure. Small scale structures resemble those on large scales.<br />
+Right: a temporal fractal process. Statistical self-affinity is observed on different time scales.</p>
+  </figcaption>
+</div>
+
+<p>As a result of self-similarity or scale invariance, motor activity fluctuations possess strong temporal correlations in healthy, young adults. Aging or diseases are usually accompanied by a loss of the temporal correlations.</p>
+
+<h3 id="would-the-change-in-temporal-correlations-tell-us-something-about-systemic-health-status-in-future">Would the change in temporal correlations tell us something about systemic health status in future?</h3>
+
+<p>Collaborating with Rush Alzheimer’s Disease Center, we recently examined motor activity data of over 1,000 elderly participants and followed their health for up to 13 years. We found that the loss of the temporal correlations in motor activity was associated with increased risk of frailty, disability, and all-cause death in future. These associations remain existed after adjusting for common health problems, chronic health conditions, cognition, mood, and physical activity etc., implying an independent role of this unique feature that plays in predicting health.</p>]]></content><author><name>Peng Li, Ph.D.</name></author><summary type="html"><![CDATA[Initially published on October 31, 2019 in the Harvard Open Scholar profile, which, as of today, is still live, but will eventually be down.]]></summary></entry><entry><title type="html">Daytime napping and Alzheimer’s - Questions &amp;amp; Answers</title><link href="https://pliphd.github.io/2022/12/29/Daytime-napping-and-alzheimers-questions-and-answers/" rel="alternate" type="text/html" title="Daytime napping and Alzheimer’s - Questions &amp;amp; Answers" /><published>2022-12-29T00:00:00-05:00</published><updated>2022-12-29T00:00:00-05:00</updated><id>https://pliphd.github.io/2022/12/29/Daytime-napping-and-alzheimers-questions-and-answers</id><content type="html" xml:base="https://pliphd.github.io/2022/12/29/Daytime-napping-and-alzheimers-questions-and-answers/"><![CDATA[<h5 id="initially-published-on-march-31-2022-from-the-openscholar-profile-which-as-of-today-is-still-live-but-will-eventually-be-down">Initially published on March 31, 2022 from the <a href="https://scholar.harvard.edu/pli">OpenScholar</a> profile, which, as of today, is still live, but will eventually be down.</h5>
+
+<p>On March 17, 2022, our recent research on the relationship between daytime napping and Alzheimer’s dementia was published in the flagship journal of the Alzheimer’s Association—<a href="https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.12636">Alzheimer’s &amp; Dementia: The Journal of the Alzheimer’s Association</a>.</p>
+
+<p>The study has quickly caught great attention from the public. There are many news reports and stories coming almost every day until now. There are common questions the public, and researchers as well, want to know. In this post, I would like to provide some personal view on this research, and I hope this can be helpful in answering some common questions that people have in their mind.</p>
+
+<h3 id="how-was-the-study-performed">How was the study performed?</h3>
+
+<p>My colleagues in the Brigham and Harvard Communities, our collaborators from Rush Alzheimer’s Disease Center and University of California, San Francisco, and I studied a cohort of about 1,400 older adults participating in the <a href="https://www.radc.rush.edu/">Rush Memory and Aging Project</a> (MAP). The MAP participants were aged between 65 and up to over 100 years at times of enrollment. Starting from 2005, the participants were provided with a watch like device to monitor their daily behavior or motor activity for up to 2 weeks every year. They were also undergone annual cognitive tests and clinical diagnosis for dementia. They had been followed for up to 15 years at the time when this study was done.</p>
+
+<p>We used an algorithm that was specifically <a href="https://academic.oup.com/sleep/article/15/5/461/2749332?login=false">designed</a> and <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165027000003642?via%3Dihub">validated</a> in prior studies to detect sleep from motor activity. We then calculated the accumulative duration in minutes and times of sleeping (i.e., frequency) during the common daylight hours (i.e., between 9AM and 7PM), or in other words, daytime ‘napping’. We modelled the longitudinal changes in daytime napping duration and frequency. We examined how daytime napping traits were related to future incidence of Alzheimer’s dementia. We also modeled the longitudinal changes in daytime napping and in cognition in parallel, and the potential directionality in their relationship.</p>
+
+<h3 id="what-were-the-major-findings-in-this-research">What were the major findings in this research?</h3>
+
+<p>We found that older adults who napped longer or more frequently had a higher future Alzheimer’s risk. To make these associations easier to understand, we chose a cutoff of 1 hour napping per day to illustrate the difference in the hazard of incident Alzheimer’s dementia. We reported a 40% increased hazard in those who napped longer than 1 hour per day than those who did not. Similarly, a similar increase was found when we compared the hazards between those who napped once or more than once a day with those who did not. These relationships were independent from known risk factors including age, sex, years of education, nighttime sleep duration, fragmentation, duration of wakeup after sleep onset (WASO), comorbidities and medications that may affect sleep.</p>
+
+<p>We also found that older adults napped longer and more frequently as they became even older, and these changes sped up as participants progressed from no cognitive impairment to mild cognitive impairment, and to Alzheimer’s dementia. More specifically, while these adults napped for an average of ~58 min or twice per day, there was an annual increase of around 11 min or 0.4 times more nap as they became even older. Importantly, these rates sped up dramatically after the onset of mild cognitive impairment and further after the onset of dementia.</p>
+
+<p>Altogether, these observations imply that the two processes, longer/more frequent daytime napping and Alzheimer’s, may share a bi-directional relationship. From directly modelling the longitudinal changes in parallel, the results demonstrated that daytime napping and cognition seemed to drive each other’s changes in a bi-directional manner.</p>
+
+<h3 id="what-can-we-learn-or-how-to-interpret-these-findings">What can we learn or how to interpret these findings?</h3>
+
+<p>It is not uncommon to see that older adults oftentimes doze off unexpectedly, and this is even more commonly seen in people with Alzheimer’s disease. Based on our results, we believe, even before any cognitive symptoms occur, people on the road of developing Alzheimer’s dementia nap more during the day than their peers of similar ages. And this will be even worse after the clinical symptoms come.</p>
+
+<p>So, the general take home message is that excessive daytime naps may be a sign of future negative cognitive outcomes such as Alzheimer’s dementia, which are further worsening with the progression of Alzheimer’s. However, we should be cautious to draw a causal relationship. And we do not want to overinterpret the findings, as there might be multiple potential reasons why they show such a relationship. For example, both “excessive” napping and cognitive impairment can be a sign of underlying pathophysiological changes linked to Alzheimer’s. It may be the shared common pathological mechanism that drives such an observation.</p>
+
+<h3 id="why-may-sleep-play-a-role-in-alzheimers-disease">Why may sleep play a role in Alzheimer’s disease?</h3>
+
+<p>I do not think scientists completely understand why yet, although the knowledge continues to advance rapidly. The relationship between sleep and Alzheimer’s disease is potentially circular, or in other words, bi-directional — poor sleep may lead to or worsen neurodegeneration, and conversely neurodegenerative processes may lead to worse sleep.</p>
+
+<p>In general, during a typical night of sleep, several sleep stages are cycled through, including sleep stage 1, 2, 3, and rapid eye movement (REM) sleep. There are a lot of biological/physiological processes going on unconsciously while people are sleeping, which scientists believe are useful to recuperate the brain (as well as the body) from the day’s waking activities. For more information about sleep physiology, there are very nice resources on this webpage “<a href="https://sleep.hms.harvard.edu/education-training/public-education/sleep-and-health-education-program/sleep-health-education">Sleep &amp; Health Education Gateway</a>” from our Division of Sleep Medicine at Harvard Medical School.</p>
+
+<p>Sleep plays a role in clearing toxic wastes from the brain. For example, the current thought of Alzheimer’s pathology is that amyloid beta starts building up long before any clinical symptoms occur. The accumulation of amyloid beta may be due to overproduction, reduced clearance, or both. Prior <a href="https://www.science.org/doi/10.1126/science.1180962">animal studies</a> have demonstrated one potential mechanism through which amyloid beta is drained from the brain which happens more easily during sleep. This implies that sleep may help dispose toxicities related to neurodegeneration that are accumulated while awake.</p>
+
+<p>A <a href="https://academic.oup.com/brain/article/140/8/2104/3933862">recent study</a> further shows that the proportion of sleep stage 3 (also known as slow wave sleep or deep sleep) and sleep efficiency significantly predicted the speed of amyloid beta deposition.</p>
+
+<p>It is thus possible that people who have sleep problems such as short sleep duration or fragmented sleep may have difficulty in progressing through the sleep cycles normally, which thus increases the chances of toxic wastes being not removed and, thus, accumulated in the brain.</p>
+
+<p>It is, however, unclear why too much sleep is also associated with worse cognitive outcomes as shown in many studies. It is likely that excess sleep may be a symptom of some coexisting health conditions that increase of the risk of Alzheimer’s or dementia or underlying neurodegenerative processes.</p>
+
+<p>More relevant to our current study, longer or more frequent daytime napping may also be symptoms of the underlying neuropathological changes. For example, a <a href="https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1016/j.jalz.2019.06.3916">previous study</a> has reported that tau tangles, another hallmark of Alzheimer’s disease, can impair wake-promoting neurons which results in sleep-wake disturbances or a higher propensity for daytime napping.</p>
+
+<p>There is also a possibility that “excessive” napping may play a role, but we could not confirm whether this is true based on our current study. What we can speculate is that, for example, “excessive” napping may interfere with our circadian clocks that have been shown to play a role in the clearance of amyloid beta. A <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009994">recent study</a> has reported that a key component in amyloid beta metabolism, the myeloid-based phagocytosis, is under circadian control, which provides a molecular basis for the connection between circadian disruption and Alzheimer’s pathology. Besides, in a <a href="https://www.thelancet.com/journals/lanhl/article/PIIS2666-7568(20)30015-5/fulltext">prior study from us</a>, we demonstrated that circadian disturbances may independently predict future risk of Alzheimer’s dementia, and the conversion from mild cognitive impairment to dementia, in older adults. However, further studies are needed to confirm this speculation or answer more precisely whether daytime napping does play a role.</p>
+
+<h3 id="how-does-daytime-napping-differ-from-sleep-during-nighttime">How does daytime napping differ from sleep during nighttime?</h3>
+
+<p>Naps are short periods of sleeps, while nighttime sleep should be longer and relatively consecutive in healthy people. As mentioned above, there are different sleep stages that people cycle through multiple times during a normal night’s sleep. This should be similar for naps during daytime if they are long enough.</p>
+
+<p>Usually, too long naps, or naps in afternoon hours may increase the chance of going into deep sleep (or in other words, stage 3 sleep or slow wave sleep). People wake up from slow wave sleep may feel groggy for an extended period.</p>
+
+<p>Sleep drive builds steadily across the course of the day. One has greater sleep drive as they stay awake for longer time during the day. A nap during the daytime may stop sleep drive from building up too much, and may help increase alertness and mental efficacy. However, if this happens close to dark time, such a nap may make it difficult for people to fall asleep even at their common nighttime sleep hours, because after this nap, there is not enough sleep drive that has been built up. Long naps may work in the same direction that impinge on people’s normal nighttime sleep.</p>
+
+<p>There is yet another process—circadian rhythms—that also regulates sleep. Scientists believe that sleep drive influences mainly deep sleep that happens more often in the first two cycles of a normal night’s sleep, whereas circadian rhythms influence REM sleep that usually happens more often towards the morning hours.</p>
+
+<p>There is a natural decrease in circadian rhythms around the early afternoon time (2PM or around), for example in the rhythm of alertness, which increases again until early evening. It may thus become apparent that a short nap during this time makes sense which fits perfectly with the decrease in circadian rhythms.</p>
+
+<p>Therefore, the relationship between nap and sleep is not simple or static. It is hard to have a solution that works universally for everybody. What is even hard to tell is that, in many older adults, or in specific populations such as shift workers, we may not know whether people are sleeping or are napping. There is not a clear distinction between them especially when one is not following a standard day-night schedule.</p>
+
+<h3 id="do-we-know-how-long-or-how-frequent-daytime-napping-needs-to-be-to-become-excessive">Do we know how long or how frequent daytime napping needs to be to become “excessive”?</h3>
+
+<p>The short answer is NO. This study was not designed to specifically study “how long or how frequent” daytime napping is “excessive” or “extended”, although many media reports interpret the results this way.</p>
+
+<p>Using more scientifically rigorous language, we treated daytime napping duration and frequency as continuous variables. We directly assessed (1) how these two continuous variables changed over time and how the progression of Alzheimer’s affected these changes, and (2) the links of these two continuous variables with risk of Alzheimer’s dementia. In other words, based on the method we used and the results we observed, a short nap would still be associated with worse cognitive outcomes as compared with no nap. But please don’t take it wrong—the “effect size” may be just very small and not measurable, in other words, not clinically meaningful.</p>
+
+<p>However, the question is whether this “linear” assumption is true. A different methodology is needed to address this. For example, we can introduce a quadratic item in the models to examine a nonlinear relationship. Further studies are also needed to determine whether there is such a cut point between “normal” or “healthy” napping and “excessive” or “extended” napping.</p>
+
+<h3 id="should-one-avoid-napping-or-should-one-wake-up-their-family-members-or-close-relatives-if-they-fall-asleep-during-daytime">Should one avoid napping or should one wake up their family members or close relatives if they fall asleep during daytime?</h3>
+
+<p>I was asked several times similar questions like this over the past days. This is indeed hard to answer, and honestly our study could not answer this question. As I stated above, it is likely not possible to come up with a solution that works universally for everybody.</p>
+
+<p>If napping is a long-term habit, and it does not affect one’s sleep during night, it should be fine to keep it. However, if one identifies drastic changes, they may want to seek medical attention.</p>
+
+<p>And as explained above, it also depends on what time of the day and how long one naps. Many sleep scientists or doctors recommend power naps, naps that are short—less than 30 min. A short sleep during early afternoon hours may be enough to be refreshable and boost the alertness for afternoon jobs. However, if one wakes up with grogginess from a nap and feels even more drowsy, it is highly possible that they have napped too long and have waken up from deep sleep. This is called sleep inertia, and it may take an hour or longer to get rid of it. This is also a sign that people may think of shortening their daytime napping.</p>
+
+<p>Also, as mentioned above, daytime napping prevents the build-up of sleep drive. If one finds it difficult to fall asleep during nighttime which seems to link to their napping behaviors, this may also be a signal that they may want to cut their daytime napping first.</p>
+
+<p>It is worth noting that, many behaviors can feed back to our circadian clocks, so it is better if people keep a regular daily schedule, including both nap and sleep behaviors.</p>
+
+<h3 id="are-there-limitations-in-this-study">Are there limitations in this study?</h3>
+
+<p>Yes, as is always the case.</p>
+
+<p>We should not simply translate our findings to younger or middle-aged adults. There might be fundamental differences in napping behaviors between older adults and younger people. For example, older adults may frequently doze off unconsciously which rarely happens in younger adults. Planned and unplanned naps could have different implications, which we could not answer at this moment.</p>
+
+<p>The timing and regularity of napping may also matter.</p>
+
+<p>We do not know whether culture may make things different—nap or siesta is common in some cultures, such as in South America, Spain, and China, etc.</p>
+
+<p>Increased napping may be a result of nighttime sleep changes. Although we controlled for sleep duration, fragmentation, and WASO, we do not know whether there were macro- or microstructural changes in sleep. At this moment, polysomnography is needed to study so.</p>
+
+<p>We also don’t know how the macrostructure of daytime napping is like in those older adults, and whether some changes may link to Alzheimer’s or dementia. Again, polysomnography is needed for this purpose.</p>
+
+<p>We also recognize that the current method for sleep detection from actigraphy is not accurate enough to be clinically credible. To implement the monitoring of sleep behavior in individuals using actigraphy, technical advances are needed to improve the performance.</p>
+
+<p><i>Disclosure:
+P.L. receives grant support from the BrightFocus Foundation, and he is also partially supported by the National Institutes of Health.</i></p>]]></content><author><name>Peng Li, Ph.D.</name></author><summary type="html"><![CDATA[Initially published on March 31, 2022 from the OpenScholar profile, which, as of today, is still live, but will eventually be down.]]></summary></entry></feed>

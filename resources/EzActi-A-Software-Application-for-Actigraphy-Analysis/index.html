@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ezActi---A Software Application for Actigraphy Analysis - Laboratory for Sleep and Digital Health</title>
+  <meta name="description" content="The Laboratory for Sleep and Digital Health is a cross-disciplinary research lab committed to understanding and promoting successful aging. The PI is Dr. Peng Li at Massachussetts General Hospital and Harvard Medical School. The research theme in this lab include sleep and circadian physiology, cardiovascular function and cardiovascular dynamics, cognitive neuroscience, biomedical engineering, biomedical signal processing, nonlinear dynamics, cohort studies, and epidemiological research. Dr. Peng Li has obtained a multi-disciplinary training on biomedical engineering, nonlinear dynamics in cardiovascular physiology, and sleep.
+">
+  <link rel="shortcut icon" type="image/x-icon" href="https://pliphd.github.io/assets/images/logopic/favicon.png">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  
+  <!-- some awesome icon support -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <script src="https://kit.fontawesome.com/09c87fe897.js" crossorigin="anonymous"></script>
+
+  <!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+<!-- fancybox -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+</head>
+
+
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THKBXKR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white py-custom">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarColor02" aria-controls="navbarColor02">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand px-3" href="https://pliphd.github.io/">
+        <img src="https://pliphd.github.io/assets/images/logopic/favicon.png" width="55" height="55" style="margin-right:5px; vertical-align: bottom; float: left" class="d-inline-block" alt="">
+        <div class="nav-title">Laboratory for Sleep and Digital Health</div>
+    </a>
+    <div class="offcanvas offcanvas-start" tabindex="-1" data-bs-scroll="true" data-bs-backdrop="false" id="navbarColor02">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                
+                 
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pliphd.github.io/">Home</a>
+                </li>
+                
+                
+                 
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pliphd.github.io/news/">News</a>
+                </li>
+                
+                
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Research</a>
+                    <ul class="dropdown-menu dropdown-menu-end">                      
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/focus_areas/">Focus Areas</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            <ul class="dropend">
+                                
+                                <li><a class="dropdown-item dropdown-toggle" href="https://pliphd.github.io/focus_areas/sleep_nap_and_cognitive_aging/">Sleep, Nap, &amp; Cognitive Aging</a></li>
+                                
+                                <li><a class="dropdown-item dropdown-toggle" href="https://pliphd.github.io/focus_areas/physiological_complexity_and_biomedical_signal_processing/">Physiological Complexity &amp; Biomedical Signal Processing</a></li>
+                                
+                            </ul>
+                            
+                            -->
+                        </li>
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/projects/">Projects</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/publications/">Publications</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/videos/">Videos</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                        <li>
+                            
+                            <hr class="dropdown-divider">
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/roots/">The ROOTS Study</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+                
+                 
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pliphd.github.io/resources/">Resources</a>
+                </li>
+                
+                
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Team</a>
+                    <ul class="dropdown-menu dropdown-menu-end">                      
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/people/">People</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                        <li>
+                            
+                            <a class="dropdown-item" href="https://pliphd.github.io/photos/">Photos</a>
+                            <!-- subsub category doesn't work well, still in development -->
+                            <!--
+                            
+                            -->
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+                
+                 
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pliphd.github.io/blogs/">Blogs</a>
+                </li>
+                
+                
+                 
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pliphd.github.io/contact/">Contact</a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div class="container-fluid row">
+<div id="gridid" class="col-sm-12 col-xs-12">
+  <div class="container-fluid row">
+<div class="post">
+    <article id="post">
+
+        <h2><p>ezActi—A Software Application for Actigraphy Analysis</p>
+</h2>
+
+        <header>
+            
+            <div class="author">
+                <a><i class="bi bi-person"></i>&nbsp;Peng Li, Ph.D.</a>
+            </div>
+            
+
+            <div class="reading-time">
+                <i class="bi bi-body-text"></i><count>&nbsp;1 words</count>
+            </div>
+
+            <div class="reading-time">
+                <i class="bi bi-stopwatch"></i><timer>&nbsp;1 min read</timer>
+            </div>
+        </header>
+
+        <p>
+        <div class="container-fluid">
+  <div class="col-sm-4">
+    <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/ezacti2.png" class="img-fluid" alt="ezActi2" /></p>
+    <figcaption>
+      <p>Credit © Peng Li, Ph.D.</p>
+    </figcaption>
+  </div>
+
+  <div class="col-sm-8 text-info">
+    <p><strong><em>An investor? A donor? Interested in this research and development? Please <a href="mailto: pli9@bwh.harvard.edu"><i class="bi bi-envelope-at-fill"></i>contact me</a>. Let’s chat!</em></strong></p>
+  </div>
+</div>
+
+<h5 id="though-algorithm-details-and-mathematical-formulas-are-readily-available-for-analyzing-rest-activity-patterns-using-actigraphy-we-realize-that-it-would-be-challenging-for-researchers-without-strong-programming-backgrounds-to-conveniently-implement-them">Though algorithm details and mathematical formulas are readily available for analyzing rest-activity patterns using actigraphy, we realize that it would be challenging for researchers without strong programming backgrounds to conveniently implement them.</h5>
+
+<p>Actigraphy allows a non-invasive and cost-effective assessment of the functional manifestation of the circadian control under naturalistic settings in terms of rest-activity patterns, which enables scalable applications in population and large cohort study settings.</p>
+
+<p>We developed a software application, ezActi, in the MATLAB<sup>©</sup> platform (R2022a and later versions, The MathWorks Inc., Natick, MA) that implements a number of algorithms for rest-activity rhythms analysis. We hope that such an application will ease and facilitate these analyses in a wider community within and beyond the network of sleep and circadian biologists, physiologists, and clinicians.</p>
+
+<p>The current release represents the second major updates, and thus the software application is formally named “<em>ezActi2</em>.”</p>
+
+<h3 id="recommended-reading-materials">Recommended reading materials</h3>
+
+<ol>
+  <li>C Gao, <em>et al</em>. Approaches for assessing circadian rest-activity patterns using actigraphy for cohort and population-based studies. <em>Current Sleep Medicine Reports</em> 2023. <a href="https://doi.org/10.1007/s40675-023-00267-4" target="_blank">Link to the article <i class="bi bi-file-pdf"></i></a></li>
+  <li>P Li. pliphd/Actigraphy. <em>Zenodo</em> 2023. <a href="https://doi.org/10.5281/zenodo.8411607" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8411607.svg" alt="DOI" /></a></li>
+  <li>P Li. The actigraphy project. <a href="https://github.com/pliphd/Actigraphy/blob/master/README.md" target="_blank"><em>GitHub</em></a></li>
+</ol>
+
+<p>Please <a href="mailto: pli9@bwh.harvard.edu"><i class="bi bi-envelope-at-fill"></i></a> me with any questions.</p>
+
+<div class="text-success">
+  <p><strong>I kindly ask that you cite the above-referenced article(s) if you use <em>ezActi2</em> in your research and publications.</strong></p>
+</div>
+
+<p>If you want to skip the reading below, please <a href="https://github.com/pliphd/Actigraphy" target="_blank">download <em>ezActi2</em> here <i class="bi bi-file-earmark-code-fill"></i></a>.</p>
+
+<h3 id="about-ezacti2">About ezActi2</h3>
+
+<p>The ezActi2 was programmed in an object-oriented style and was constructed with a graphical user interface.</p>
+
+<div class="container-fluid">
+  <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/ezacti2_interface.png" class="img-fluid" style="width: 50%" alt="interface of ezActi2" /></p>
+  <figcaption>
+    <p>The user interace of ezActi2. Credit © Peng Li, Ph.D.</p>
+  </figcaption>
+</div>
+
+<p>The ezActi2 is easy to operate through its compact graphical interface, allowing researchers without knowledge of programming to perform various kinds of analysis. The ezActi2 is quite easy to operate with only few clicks to perform widely-used rest-activity rhythms analysis. And it comes with a couple of different calculation options so as to adjust input parameters, to batch process multiple signal recordings, to visualize results, and so on. Analysis results are automatically stored to comma-separated ASCII files, thus being compatible to and easily imported into the common statistical analysis software.</p>
+
+<h3 id="what-can-ezacti2-do">What can <em>ezActi2</em> do?</h3>
+
+<h4 id="visualize-actigraphy">Visualize actigraphy</h4>
+
+<div class="container-fluid">
+  <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/actigraphy_window.png" class="img-fluid" style="width: 50%" alt="actigraphy window" />
+<img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/actogram_window.png" class="img-fluid" style="width: 50%" alt="actogram window" /></p>
+  <figcaption>
+    <p>Visualization of actigraphy. Upper panel: The Actigraphy time series; Lower panel: The Actogram plot. Credit © Peng Li, Ph.D.</p>
+  </figcaption>
+</div>
+
+<h4 id="quality-control">Quality control</h4>
+
+<div class="container-fluid">
+  <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/qc_actigraphy.png" class="img-fluid" style="width: 50%" alt="actigraphy window" />
+<img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/qc_actogram.png" class="img-fluid" style="width: 50%" alt="actogram window" /></p>
+  <figcaption>
+    <p>Quality control for actigraphy. Gaps are highlighed in both ways of actigraphy visualization. Credit © Peng Li, Ph.D.</p>
+  </figcaption>
+</div>
+
+<h4 id="circadian-rhythmicity-analysis">Circadian rhythmicity analysis</h4>
+
+<div class="container-fluid">
+  <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/actigraphy_cosinor.png" class="img-fluid" style="width: 50%" alt="actigraphy window superimposed with 24-h components extracted from cosinor analysis" />
+<img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/cosinor_polar.png" class="img-fluid" style="width: 50%" alt="cosinor analysis results" />
+<img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/actigraphy_emd.png" class="img-fluid" style="width: 50%" alt="actigraphy window superimposed with 24-h components extracted from EMD" /></p>
+  <figcaption>
+    <p>Circadain rest-activity rhythms analysis. Upper panel: the extracted 24-h component is from cosinor analysis. Middle panel: the results of cosinor analysis shown on a 24-h clock. Lower panel: the extracted ~24-h component is from empirical mode decomposition. Credit © Peng Li, Ph.D.</p>
+  </figcaption>
+</div>
+
+<h4 id="sleep-detection">Sleep detection</h4>
+
+<div class="container-fluid">
+  <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/sleep_actigraphy.png" class="img-fluid" style="width: 50%" alt="actigraphy window superimposed with sleep episodes" /></p>
+  <figcaption>
+    <p>Sleep epoch identification from actigraphy. Credit © Peng Li, Ph.D.</p>
+  </figcaption>
+</div>
+
+<h4 id="detrended-fluctuation-analysis">Detrended fluctuation analysis</h4>
+
+<div class="container-fluid">
+  <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/dfa.png" class="img-fluid" style="width: 50%" alt="detrended fluctuation analysis of actigraphy" /></p>
+  <figcaption>
+    <p>Detrended fluctuation analysis. Credit © Peng Li, Ph.D.</p>
+  </figcaption>
+</div>
+
+<hr />
+
+<div class="text-info">
+  <h3 id="fun-factsthe-history-of-ezacti2">Fun facts—The history of ezActi2</h3>
+
+  <div class="container-fluid">
+    <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/history.png" class="img-fluid" style="width: 50%" alt="History of ezActi2" /></p>
+    <figcaption class="text-info">
+      <p>Fun facts—How ezActi2 evolves from its original version. Credit © Peng Li, Ph.D.</p>
+    </figcaption>
+  </div>
+
+  <p>I have been thinking of streamlining the actigraphy analysis since early 2016 when he started working on a project that invovled more than 6,000 actigraphy recordings.</p>
+
+  <p>Initially, two research assistants were working with me helping with the quality control of these recordings. To facilitate a “semi-automatic” process, a MATLAB<sup>©</sup>-based simple App called <em>DefineGap</em> was born.</p>
+
+  <div class="container-fluid">
+    <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/definegap.png" class="img-fluid" style="width: 50%" alt="interface of DefineGap" /></p>
+    <figcaption class="text-info">
+      <p>The user interace of DefineGap. Credit © Peng Li, Ph.D. 2016</p>
+    </figcaption>
+  </div>
+
+  <p>The App simply helps the research assistants and myself visualize the signal and document the “gap” if we ever identify any. Some user friendly tools have been implemented in order to zoom in specific areas and to show the data points using tooltips.</p>
+
+  <p>Almost at the same time, the research group started performing detrended fluctuation analysis (check <a href="https://alz-journals.onlinelibrary.wiley.com/doi/10.1016/j.jalz.2018.03.010" target="_blank">this publication</a> and <a href="https://www.sciencedirect.com/science/article/pii/S019745801930301X?via%3Dihub" target="_blank">this article</a> for some results from this project). The two research assistants clearly preferred a small tool with a user interface instead of running through command lines. A <em>DFATool</em> App paired with a <em>DFAFit</em> App were thus developed to facilitate this process.</p>
+
+  <div class="container-fluid">
+    <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/dfatool.png" class="img-fluid" style="width: 50%" alt="interface of DFATool" />
+<img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/dfafit.png" class="img-fluid" style="width: 50%" alt="interface of DFAFit" /></p>
+    <figcaption class="text-info">
+      <p>The user interaces of the paired App—DFATool and DFAFit. Credit © Peng Li, Ph.D. 2016-2019</p>
+    </figcaption>
+  </div>
+
+  <p>Similarly, to facilitate the process of performing some nonparametric circadian rest-activity rhythms analysis, I also wrote a small tool called <em>MISIVTool</em>. As it was named, the tool performs IS (stards for interdaily stability) and IV (stands for intradaily variability) analysis on a multiscale (the “M” in the name) basis. Also, to better estimate the actual period (especially for example in animal studies without 12:12 light-dark cycles), a variant of the <em>MISIVTool</em> was made to implement the $\chi$<sup>2</sup> periodogram—the <em>PeriodTool</em>.</p>
+
+  <div class="container-fluid">
+    <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/misivtool.png" class="img-fluid" style="width: 50%" alt="interface of DFATool" />
+<img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/periodtool.png" class="img-fluid" style="width: 50%" alt="interface of DFAFit" /></p>
+    <figcaption class="text-info">
+      <p>The user interaces of the MISIVTool and PeriodTool. Credit © Peng Li, Ph.D. 2016-<script>document.write(new Date().getFullYear())</script></p>
+    </figcaption>
+  </div>
+
+  <p>All of these small tools continue to evolve and being updated separately.</p>
+
+  <p>To simplify the story, let’s focus on the timeline of the <em>DefineGap</em>, which soon evolved into its updated version—<em>ConfirmGap</em>. It came with a tabular-formated gap visualizer and also highlights the identified gap areas in the actigraphy. It was also featured with an “advanced option” that facilitate the display of the actual time of the signal (in addition to data points).</p>
+
+  <div class="container-fluid">
+    <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/confirmgap.png" class="img-fluid" style="width: 50%" alt="interface of ConfirmGap" /></p>
+    <figcaption class="text-info">
+      <p>The user interace of ConfirmGap. Credit © Peng Li, Ph.D. 2016-2018</p>
+    </figcaption>
+  </div>
+
+  <p>Code-wise, both <em>DefineGap</em> and <em>ConfirmGap</em> were developed based on the classical approach for developing user interfaces in MATLAB<sup>©</sup>–the GUIDE<sup>©</sup>. It quickly became complicated to maintain and manage the code as new functions were being added. In early 2018, the object-oriented (OO) structure of MATLAB<sup>©</sup> became more and more mature, and I started migrating this App to a more managable programming style based on OO. At the beginning of this attempt, a temporal workaround was being used that relied on the GUIDE<sup>©</sup> to offer an interface while all functions (i.e., “call-backs of all buttons etc.) were coded through a class. This led to the new release called <em>Gapp</em>.</p>
+
+  <div class="container-fluid">
+    <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/gapp.png" class="img-fluid" style="width: 50%" alt="interface of Gapp" /></p>
+    <figcaption class="text-info">
+      <p>The user interace of Gapp. Credit © Peng Li, Ph.D. 2018-2019</p>
+    </figcaption>
+  </div>
+
+  <p>Until the end of 2019, <em>Gapp</em> has been continuely updated including the addition of a pilot automatic process for sensing gaps and later a function to identify napping episodes with a user-customizable time window for daytime. This nap detection algorithm was pretty pilot and mainly based on activity counts.</p>
+
+  <p>With the continuing effort in streamlining different calculations (including cosinor analysis, detrended fluctuation analysis, etc.), the temporal turnaround by using the GUIDE<sup>©</sup> to provide an interface became not efficient eventually. In the end of 2019, I finally launced the <em>ezActi</em> project and started refining all of these processes using the morden OO and the AppDesigner<sup>©</sup> in MATLAB<sup>©</sup>. This led to the born of the first release of <em>ezActi</em>.</p>
+
+  <p>The ezActi started to separate the control panel and the actigraphy display window. It also introduced several different running modes such as the gap detection, sleep and nap detection, as well as circadian analysis. It inherited the process by using a list file to perform batch analysis. It introduced a knob for facilitating the identification of time.</p>
+
+  <div class="container-fluid">
+    <p><img src="https://pliphd.github.io/assets/images/resourceimg/ezActi2/ezacti_interface.png" class="img-fluid" style="width: 50%" alt="interface of ezActi" /></p>
+    <figcaption class="text-info">
+      <p>The user interace of ezActi. Credit © Peng Li, Ph.D. 2019-2022</p>
+    </figcaption>
+  </div>
+
+  <p>The <em>DFATool</em> and <em>DFAFit</em> were merged into the <em>ezActi</em> with a newly introduced <em>mydfa</em> class, which significantly improved the computational speed (more than 10x faster by a conservatively estimation).</p>
+
+  <p>The ezActi2 was first launched in November 2022. The idea of this new release was to feature a brandnew and easily-managable import wizard and a newly updated actigraphy display window. New functions have been added since then, including structured visualizations and the additions of nonparametric analysis as well as empirical mode decomposition based circadian analysis. The new version also came with several newly introduced classes, including the <em>cosinor</em> class (which was initially implemented in <em>ezActi</em> based on the traditional procedural programming style), the <em>ImportWizard</em>, the new display window <em>actigraphy2</em>, and <em>actogram</em>. The empirical mode decomposition process was currently still based on the procedural sytle (which calls the built-in emd function).</p>
+</div>
+
+        </p>
+
+    </article>
+</div>
+
+</div>
+</div>
+</div>
+
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-light btn-floating btn-lg" id="btn-back-to-top">
+      <i class="bi bi-arrow-up-square"></i>
+    </button>
+
+        <div class="footer-clean">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 item">
+                        <h3>About</h3>
+                            <p>Site powered by <a href="https://jekyllrb.com">Jekyll</a> and uses <a href="http://www.getbootstrap.com">Bootstrap</a>. The theme is adapted from <a href="http://www.bootswatch.com">Bootswatch</a> with customization.</p>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 item">
+                        <h3>Contact</h3>
+                            149 13th Street,  
+			          Boston, MA 02129  
+				    (<a href="https://maps.app.goo.gl/1RbVE8kDMMLjVHje7">Maps</a>)
+                    </div>
+                    <div class="item social">
+                        <a href="https://twitter.com/PengLiBME" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/pliphd/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <p class="copyright">Li Lab © 2022-<script>document.write(new Date().getFullYear())</script></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- below JS support is needed for some contents to work properly (such as the carousel and navbar, gallery) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/85f27d592b.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        //
+      });    
+    </script>
+
+    <!-- personalized JS support -->
+    <script src="https://pliphd.github.io/assets/js/back_to_top.js"></script>
+    <script src="https://pliphd.github.io/assets/js/reading_time.js"></script>
+    <script src="https://pliphd.github.io/assets/js/modal.js"></script>
+    <script src="https://pliphd.github.io/assets/js/gallery.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("[rel=tooltip]").tooltip({ placement: 'top'});
+      });
+    </script>
+  </body>
+
+</html>
